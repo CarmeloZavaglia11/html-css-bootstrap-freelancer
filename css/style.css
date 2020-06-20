@@ -21,6 +21,10 @@
     color: white;
 }
 
+.under-fixed{
+    margin-top: 73px;
+}
+
 header{
     position: fixed;
     top: 0;
@@ -260,6 +264,10 @@ hr{
 }
 
 @media screen and (max-width: 768px) {
+
+    .under-fixed{
+        margin-top: 63px;
+    }
 
     .menu-xs{
         display: block;
