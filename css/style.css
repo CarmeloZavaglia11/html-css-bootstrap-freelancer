@@ -272,6 +272,8 @@ hr{
     .menu-xs{
         display: block;
         position: absolute;
+        top: 5px;
+        right: 20px;
     }
 
     .menu-xs:hover{
