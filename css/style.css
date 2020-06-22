@@ -60,9 +60,20 @@ nav ul a{
     color: white;
 }
 
-nav ul a:hover{
+nav ul a:focus{
+    outline: 0;
+    outline-offset: 0;
     text-decoration: none;
-    color: #1abc9c;
+    color: white;
+}
+
+nav ul a:hover,
+.active
+{
+    text-decoration: none;
+    color: white;
+    background-color: #1abc9c;
+    border-radius: 10px;
     cursor: pointer
 }
 
@@ -76,6 +87,12 @@ nav ul a:hover{
     margin-top: 16px;
     margin-bottom: 10px;
     border-radius: 5px;
+}
+
+.navspy ul li:hover{
+    color: white;
+    background-color: #1abc9c;
+    border-radius: 10px;
 }
 
 .first{
